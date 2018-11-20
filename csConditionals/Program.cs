@@ -13,10 +13,8 @@ namespace csConditionals
             switch (Seasons)
             {
                 case Season.Autumn:
-                    Console.WriteLine("It's Autumn");
-                    break;
                 case Seasons.Summer:
-                    Console.WriteLine("It's Summer");
+                    Console.WriteLine("We've got a promotion");
                     break;
                 default:
                     Console.WriteLine("I don't know that season");
